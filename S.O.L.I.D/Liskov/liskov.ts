@@ -76,7 +76,7 @@ class Penguin extends Bird {
         super(name);
     }
     makeSound(): string {
-        return `${this.name} is chirps happily`
+        return `${this.name} is chirps  happily`
     }
 }
 
