@@ -27,11 +27,13 @@ app.get('/blocking', async (req, res) =>
     {
         res.json({
             type: "Blocking-Error",
-            value: error
+            error
         })
     })
 })
 
+console.log(`Go to http://localhost:9090/non-blocking`);
+console.log(`      http://localhost:9090/blocking`);
 
 app.listen(9090, () =>
 {
