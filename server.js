@@ -18,7 +18,7 @@ app.get('/blocking', async (req, res) =>
     worker.on('message', (init) =>
     {
         res.json({
-            type: "Blocking",
+            type: "Blocking Code",
             value: init
         })
     })
